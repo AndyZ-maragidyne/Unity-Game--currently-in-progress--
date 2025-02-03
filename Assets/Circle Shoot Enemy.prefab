@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6887693872739556998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14919305
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125103, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Name
+      value: Circle Shoot Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 434970694626643583, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+--- !u!1 &6511973652999739753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 416913492181125103, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+  m_PrefabInstance: {fileID: 6887693872739556998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5033755824747806820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511973652999739753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3828bf7fabf4e0640bb42124d6d9656c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  projectileSpawnPoint: {fileID: 0}
+  projectileSpeed: 8
+  shootInterval: 0.05
+  numProjectiles: 16

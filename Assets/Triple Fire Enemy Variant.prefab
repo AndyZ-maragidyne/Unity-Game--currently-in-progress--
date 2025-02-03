@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3542903815686652858
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6886792
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3421739
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125090, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.59432095
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416913492181125103, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+      propertyPath: m_Name
+      value: Triple Fire Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 434970694626643583, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+--- !u!4 &3811101516101473663 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 416913492412421829, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+  m_PrefabInstance: {fileID: 3542903815686652858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3811101517959070805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 416913492181125103, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+  m_PrefabInstance: {fileID: 3542903815686652858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1227017267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3811101517959070805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd28ddbb6120244890ce4cf85dcbfa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 547038630900953287, guid: c1c405d1a8dd29841a717f87ec10d1e7, type: 3}
+  projectileSpawnPoint: {fileID: 3811101516101473663}
+  projectileSpeed: 8
+  shootMin: 0
+  shootMax: 4
+  shootInterval: 0
