@@ -14,6 +14,7 @@ public class PlayerScript : MonoBehaviour
     public int lives = 3;
     public int coins = 0;
     private bool isRolling = false;
+    public PlayerDataSO playerLives;
 
 
     // Start is called before the first frame update
@@ -67,10 +68,10 @@ public class PlayerScript : MonoBehaviour
 
     public void TakeDamage()
     {
-        lives--;
-        System.Console.WriteLine("Player got hurt :( " + lives + " lives");
+        playerLives.Lives--;
+        System.Console.WriteLine("Player got hurt :( " + playerLives.Lives + " lives");
 
-        if (lives <= 0)
+        if (playerLives.Lives <= 0)
         {
             Die();
         }
@@ -102,7 +103,7 @@ public class PlayerScript : MonoBehaviour
 
     public void increaseLives(int amount)
     {
-        lives += amount;
+        playerLives.Lives += amount;
     }
 
     public void doSwipe()

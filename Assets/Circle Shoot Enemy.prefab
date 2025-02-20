@@ -73,6 +73,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+--- !u!4 &6511973652999739749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 416913492181125091, guid: bed2524984d1605479aef96d83da69f3, type: 3}
+  m_PrefabInstance: {fileID: 6887693872739556998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6511973652999739753 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 416913492181125103, guid: bed2524984d1605479aef96d83da69f3, type: 3}
@@ -90,8 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3828bf7fabf4e0640bb42124d6d9656c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
-  projectileSpawnPoint: {fileID: 0}
+  projectilePrefab: {fileID: 547038630900953287, guid: c1c405d1a8dd29841a717f87ec10d1e7, type: 3}
+  projectileSpawnPoint: {fileID: 6511973652999739749}
   projectileSpeed: 8
   shootInterval: 0.05
   numProjectiles: 16

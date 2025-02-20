@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2869011844334491734, guid: 4e4d4149d814624429ed9eb8eb962526, type: 3}
+      propertyPath: currentLevel
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2869011844334491735, guid: 4e4d4149d814624429ed9eb8eb962526, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -581,7 +585,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -623,6 +627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LivesManager
       objectReference: {fileID: 0}
+    - target: {fileID: 14270186414434926, guid: f97ceaf4378e6f5429f65ec1132ef880, type: 3}
+      propertyPath: coinsText
+      value: 
+      objectReference: {fileID: 1687370480}
     - target: {fileID: 14270186414434926, guid: f97ceaf4378e6f5429f65ec1132ef880, type: 3}
       propertyPath: livesText
       value: 
@@ -774,6 +782,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f5025282ca11e349b49b0e84ab22134, type: 3}
+--- !u!114 &1687370480 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5660562860763125885, guid: 1f5025282ca11e349b49b0e84ab22134, type: 3}
+  m_PrefabInstance: {fileID: 1687370479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1787298230 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2405320333032535717, guid: 1f5025282ca11e349b49b0e84ab22134, type: 3}

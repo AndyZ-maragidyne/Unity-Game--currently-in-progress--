@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+
+    public int currentLevel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +28,12 @@ public class LevelManager : MonoBehaviour
         // If no enemies are left, move to the next level
         if (enemies.Length == 0)
         {
-            LoadNextLevel();
+            Invoke("LoadNextLevel", 3f);
         }
     }
 
     void LoadNextLevel()
     {
-        Debug.Log("You win!!!!!! omg youre so god");
+        SceneManager.LoadSceneAsync("Level " + (currentLevel++));
     }
 }

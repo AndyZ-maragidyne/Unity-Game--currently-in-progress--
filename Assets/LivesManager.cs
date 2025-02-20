@@ -14,12 +14,12 @@ public class LivesManager : MonoBehaviour
     void Start()
     {
         int currentLives = PlayerScript.lives;
-        livesText.text = "Lives: " + PlayerScript.lives;
+        livesText.text = "Lives: " + PlayerScript.playerLives.Lives;
     }
 
     void UpdateLivesText()
     {
-        livesText.text = "Lives: " + PlayerScript.lives;
+        livesText.text = "Lives: " + PlayerScript.playerLives.Lives;
     }
 
     void UpdateCoinsText()
